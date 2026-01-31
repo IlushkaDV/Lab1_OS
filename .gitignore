@@ -6,13 +6,20 @@ build/
 *.exe
 *.out
 hello-world
-hello-worldd
+hello-world.exe
 
 # Кэш CMake
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
+CTestTestfile.cmake
+_Deps/
 
 # VS Code
 .vscode/.ropeproject
 .vscode/ipynb_checkpoints/
+.vscode/.env
+
+# ОС-специфичные файлы
+.DS_Store
+Thumbs.db
